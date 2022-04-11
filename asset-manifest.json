@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ninjaMail/static/css/main.c8f2e0b9.css",
+    "main.js": "/ninjaMail/static/js/main.bd310cde.js",
+    "static/js/787.4edefa48.chunk.js": "/ninjaMail/static/js/787.4edefa48.chunk.js",
+    "static/media/video-preview.png": "/ninjaMail/static/media/video-preview.cbf960f0c08a9461d9c6.png",
+    "static/media/photo-hero.png": "/ninjaMail/static/media/photo-hero.7c2b32157b784616898f.png",
+    "static/media/member2.png": "/ninjaMail/static/media/member2.885002c97d58171c178f.png",
+    "static/media/member3.png": "/ninjaMail/static/media/member3.4d4f250bade1cba0e1b6.png",
+    "static/media/member1.png": "/ninjaMail/static/media/member1.a5b0b4e6c4c341b3c01a.png",
+    "static/media/photo2.png": "/ninjaMail/static/media/photo2.0394f37c0142dd8e30e4.png",
+    "static/media/PlayfairDisplay-Black.woff": "/ninjaMail/static/media/PlayfairDisplay-Black.894a95a9b33b1774b918.woff",
+    "static/media/Raleway-Bold.woff": "/ninjaMail/static/media/Raleway-Bold.8a7898fb4c4667eb7d05.woff",
+    "static/media/Raleway-ExtraBold.woff": "/ninjaMail/static/media/Raleway-ExtraBold.5f1bf6f9228ecd4db38e.woff",
+    "static/media/Raleway-Black.woff": "/ninjaMail/static/media/Raleway-Black.2bd0ee39738d60ada39e.woff",
+    "static/media/Raleway-Medium.woff": "/ninjaMail/static/media/Raleway-Medium.0afe4f147938be6bea46.woff",
+    "static/media/PlayfairDisplay-Black.woff2": "/ninjaMail/static/media/PlayfairDisplay-Black.7da4db3d8e3c6b5fff27.woff2",
+    "static/media/photo1.png": "/ninjaMail/static/media/photo1.4f993b51782084cbf57f.png",
+    "static/media/Raleway-Bold.woff2": "/ninjaMail/static/media/Raleway-Bold.4705a773b2535ca2e488.woff2",
+    "static/media/Raleway-ExtraBold.woff2": "/ninjaMail/static/media/Raleway-ExtraBold.a4bb88959cb4ad860d0f.woff2",
+    "static/media/Raleway-Medium.woff2": "/ninjaMail/static/media/Raleway-Medium.d3d776b00bad322bd72a.woff2",
+    "static/media/Raleway-Black.woff2": "/ninjaMail/static/media/Raleway-Black.cd7aee2b507d96c0e2c9.woff2",
+    "static/media/Quest.svg": "/ninjaMail/static/media/Quest.c7b0e1da39384a5f21e7194de1900083.svg",
+    "static/media/dragoneye.svg": "/ninjaMail/static/media/dragoneye.d51285eeadd034b1e585132600c04cb4.svg",
+    "static/media/menu-logo.svg": "/ninjaMail/static/media/menu-logo.cf625a73e9e55b851c350ce98cb9b57b.svg",
+    "static/media/gamecommerce.svg": "/ninjaMail/static/media/gamecommerce.870c51936b7fdb1b5c6202ea6f681856.svg",
+    "static/media/radiotee.svg": "/ninjaMail/static/media/radiotee.3a125ad34f2b93a3f577dbd9ad47bf8f.svg",
+    "static/media/lastknight.svg": "/ninjaMail/static/media/lastknight.31178496352d69515ef781a6066856e9.svg",
+    "index.html": "/ninjaMail/index.html",
+    "main.c8f2e0b9.css.map": "/ninjaMail/static/css/main.c8f2e0b9.css.map",
+    "main.bd310cde.js.map": "/ninjaMail/static/js/main.bd310cde.js.map",
+    "787.4edefa48.chunk.js.map": "/ninjaMail/static/js/787.4edefa48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8f2e0b9.css",
+    "static/js/main.bd310cde.js"
+  ]
+}
