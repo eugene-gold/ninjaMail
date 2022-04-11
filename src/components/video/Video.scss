@@ -1,0 +1,52 @@
+.video-container {
+    max-width: 944px;
+    max-height: 531px;
+    margin: 282px auto 0;
+    position: relative;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    h2 {
+        font-family: 'Playfair Display';
+        font-weight: 900;
+        font-size: 60px;
+        color: white;
+        margin: 0;
+    }
+}
+.preveiwWrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;    
+    left: 50%;
+    transform: translate(-50%, 50%);
+    align-items: center;
+    width: 100%;
+}
+
+.learn-button {
+    width: 200px;
+    height: 65px;    
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.learnbtn-link {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 1.05px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
+.learnhow {
+    background-color: white;
+    color: #4BA87D;    
+}
+
+// как лучше реиспользовать кнопки все
+//почему флекс работает не так как ожидается приходится ширину задать
