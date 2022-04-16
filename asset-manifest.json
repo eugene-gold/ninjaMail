@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ninjaMail/static/css/main.c8f2e0b9.css",
-    "main.js": "/ninjaMail/static/js/main.bd310cde.js",
+    "main.css": "/ninjaMail/static/css/main.516955f8.css",
+    "main.js": "/ninjaMail/static/js/main.e42a85da.js",
     "static/js/787.4edefa48.chunk.js": "/ninjaMail/static/js/787.4edefa48.chunk.js",
     "static/media/video-preview.png": "/ninjaMail/static/media/video-preview.cbf960f0c08a9461d9c6.png",
     "static/media/photo-hero.png": "/ninjaMail/static/media/photo-hero.7c2b32157b784616898f.png",
@@ -27,12 +27,12 @@
     "static/media/radiotee.svg": "/ninjaMail/static/media/radiotee.3a125ad34f2b93a3f577dbd9ad47bf8f.svg",
     "static/media/lastknight.svg": "/ninjaMail/static/media/lastknight.31178496352d69515ef781a6066856e9.svg",
     "index.html": "/ninjaMail/index.html",
-    "main.c8f2e0b9.css.map": "/ninjaMail/static/css/main.c8f2e0b9.css.map",
-    "main.bd310cde.js.map": "/ninjaMail/static/js/main.bd310cde.js.map",
+    "main.516955f8.css.map": "/ninjaMail/static/css/main.516955f8.css.map",
+    "main.e42a85da.js.map": "/ninjaMail/static/js/main.e42a85da.js.map",
     "787.4edefa48.chunk.js.map": "/ninjaMail/static/js/787.4edefa48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8f2e0b9.css",
-    "static/js/main.bd310cde.js"
+    "static/css/main.516955f8.css",
+    "static/js/main.e42a85da.js"
   ]
 }
