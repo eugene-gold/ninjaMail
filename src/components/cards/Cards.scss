@@ -1,9 +1,19 @@
 .wrapper-middle {
     display: flex;
     max-width: 1098px;
-    max-height: 533px;
     margin: 0 auto;
     margin-top: 98px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media (min-width: 680px) and (max-width: 1096px) {
+        max-width: 710px;
+        margin-top: 64px;     
+    }
+    @media (max-width: 679px) {
+        margin-top: 33px;
+        max-width: 302px;
+        flex-direction: column;     
+    } 
 }
 
 .card-middle {    
@@ -17,7 +27,7 @@
 
 .article-card {
     max-width: 320px;
-    max-height: 450px;
+    
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     &:nth-child(1) {
         margin-bottom: 84px;
@@ -28,16 +38,44 @@
     &:nth-child(2n+2) {
         margin-left: 47px;
     }
+    @media (min-width: 680px) and (max-width: 1096px) {
+        &:nth-child(1) {
+            margin-bottom: 54px;
+        }
+        &:nth-child(2) {
+            margin-top: 57px;
+        }
+        &:nth-child(2n+2) {
+            margin-left: 30px;
+        }     
+    }
+    @media (max-width: 679px) {
+        &:nth-child(1) {
+            margin-bottom: 0;
+            margin-right: 93px; 
+        }
+        &:nth-child(2) {
+            margin-left: 93px;
+            margin-top: 14px;
+        }
+    }
    
 }
 
+
+
 .description {
-    
-    
     background-color: white;
     padding: 24px 31px 20px;
     display: flex;
     flex-direction: column;
+    @media (min-width: 680px) and (max-width: 1096px) {
+        padding: 0 20px;     
+    }
+    @media (max-width: 679px) {
+        padding: 0 20px;      
+    }
+    
     p {
         font-size: 16px;
         font-family: 'Raleway';
@@ -46,12 +84,27 @@
         line-height: 26px;        
         margin: 0;
         padding-bottom: 20px;
+        @media (min-width: 680px) and (max-width: 1096px) {
+            font-size: 12px;
+            line-height: 16px;
+            margin-top: 15px;
+            padding-bottom: 0;     
+        }
+        @media (max-width: 679px) {
+            font-size: 12px;
+            line-height: 16px;
+            margin-top: 15px;
+            padding-bottom: 0;     
+        }
+         
 
     } 
 
 }
 
-
+.description-link {
+    margin-bottom: 10px;
+}
 .link-text {
     margin-top: 13px;
     color: #4BA87D;
@@ -60,6 +113,12 @@
     font-weight: bold;
     text-align: left;
     line-height: 19px;
+    @media (min-width: 680px) and (max-width: 1096px) {
+        font-size: 12px;     
+    }
+    @media (max-width: 679px) {
+        font-size: 12px;     
+    } 
 }
 
 aside {
@@ -67,14 +126,30 @@ aside {
     max-height: 324px;
     margin-left: 46px;
     margin-top: 138px;
+    @media (min-width: 680px) and (max-width: 1096px) {
+        margin-left: 29px;
+        margin-top: 90px;     
+    }
+    @media (max-width: 679px) {
+        margin-left: 34px;
+        margin-top: 18px;     
+    } 
     h2 {
         font-size: 44px;
         font-family: 'Playfair Display';
         font-weight: 900;
         line-height: 48px;
         text-align: left;
-        margin-bottom: 24px;
+        
         margin-top: 0;
+        @media (min-width: 680px) and (max-width: 1096px) {
+            font-size: 28px;
+            line-height: 31px;     
+        }
+        @media (max-width: 679px) {
+            font-size: 28px;
+            line-height: 31px;      
+        }
     }
     p {
         font-size: 19px;
@@ -84,5 +159,17 @@ aside {
         line-height: 26px;
         padding-right: 42px;
         margin: 0;
+        margin-top: 24px;
+        @media (min-width: 680px) and (max-width: 1096px) {
+            font-size: 12px;
+            line-height: 16px;
+            margin-top: 17px;
+                 
+        }
+        @media (max-width: 679px) {
+            font-size: 12px;
+            line-height: 16px;
+            margin-top: 17px;     
+        }
     }
 }

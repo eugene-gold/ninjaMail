@@ -6,7 +6,9 @@ function Header() {
     <header className="header">
       <div className="container">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <a className='logo-link' href='#0'>
+            <img src={logo} alt="logo" />
+          </a>
         </div>
         <nav className="menu">
           <ul className="menu-list">
@@ -23,9 +25,9 @@ function Header() {
               <a className='menu-link' href='#0'>Partners</a>
             </li>            
           </ul>
-          <button className="menu-button">
-            <a className='button-text' href='#0'>Sign up free</a>
-          </button>
+          <a className="menu-button" href='#0'>
+            Sign up free
+          </a>
         </nav>
       </div>
     </header>

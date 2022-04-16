@@ -4,7 +4,7 @@ a {
 }
 
 .header {
-  height: 100px;
+  max-height: 100px;
 }
 
 .container {
@@ -13,15 +13,43 @@ a {
   margin: 20px auto;
   display: flex;
   align-items: center;
+  @media (min-width: 680px) and (max-width: 1096px) {
+    max-width: 768px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  @media (max-width: 679px) {    
+    padding: 0;        
+    max-width: 320px;
+    margin: 0 auto;     
+    margin-top: 10px;   
+  }  
+  
 }
 
 .logo {
   width: 270px;
   height: 64px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
   img {
     width: 100%;
     height: 100%;
   }
+  @media (min-width: 680px) and (max-width: 1096px) {
+    width: 173px;
+    height: 52px;
+  }
+  @media (max-width: 679px) {
+    width: 155px;
+    flex-shrink: 1;        
+  }
+}
+
+.logo-link {
+  width: 100%;
+  display: flex;
 }
 
 
@@ -37,11 +65,21 @@ a {
   padding: 0;
   margin: 0;
   margin-right: 30px;
+  @media (min-width: 680px) and (max-width: 1096px) {
+    margin: 0;
+  }  
+    
+  @media (max-width: 679px) {
+    display: none;    
+  }
 }
 
 .menu-item {
   list-style: none;
-  margin-left: 38px;  
+  margin-left: 38px;
+  @media (min-width: 680px) and (max-width: 1096px) {
+    margin-left: 15px;
+  }   
   
 }
 
@@ -52,6 +90,7 @@ a {
   cursor: pointer;
   position: relative;
   letter-spacing: 1.27px;
+  font-size: 17px;
   &::before {
     display: block;
     position: absolute;
@@ -82,23 +121,45 @@ a {
   }
   &:hover::after{
     width: 50%;
-  }   
+  }
+  @media (min-width: 680px) and (max-width: 1096px) {
+    font-size: 11px;
+    letter-spacing: 0.82px;
+  }     
   
 }
 
-.menu-button {
-  border: none;
+.menu-button {  
   width: 168px;
   height: 41px;
   background: #4BA87D;
-  
-}
-
-.button-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
   font-family: 'Raleway';
   font-weight: bold;
   text-transform: uppercase;
   color: white;
   font-size: 17px;
   letter-spacing: 1.27px;
+  &:hover {
+    outline: 2px solid #4BA87D;
+    background-color: white;   
+    color: #4BA87D;    
+    transition: color 1s, outline-color 1s ease-out, background-color 1s ease-out;
+  }
+  @media (min-width: 680px) and (max-width: 1096px) {
+    width: 110px;
+    height: 25px;
+    font-size: 11px;
+    letter-spacing: 0.82px;
+    margin-left: 16px;    
+  }
+  @media (max-width: 679px) {
+    margin-left: 10px;
+    width: 110px;
+    height: 25px;
+    font-size: 11px;    
+  }
+  
 }

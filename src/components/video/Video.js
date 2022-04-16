@@ -10,12 +10,9 @@ function Video() {
                 />
                 <div className='preveiwWrapper'>
                     <h2>Reach More Customers</h2>
-
-                    <button class="learn-button learnhow">
-                        <a className='learnbtn-link' href='#0'>
-                            Learn How
-                        </a>    
-                    </button>
+                    <a className='learnbtn-link' href='#0'>
+                        Learn How
+                    </a>    
                 </div>
         </section>
     );

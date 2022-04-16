@@ -6,6 +6,14 @@
     justify-content: center;
     align-items: center;
     max-width: 944px;
+    @media (min-width: 680px) and (max-width: 1096px) {
+        max-width: 617px;
+        margin-top: 50px;      
+    }
+    @media (max-width: 679px) {
+        max-width: 281px;
+        margin-top: 54px;                
+    }
     h2 {
         margin: 0;
         font-family: 'Playfair Display';
@@ -15,6 +23,21 @@
         padding-left: 250px;
         padding-right: 250px;
         text-align: center;
+        @media (min-width: 680px) and (max-width: 1096px) {
+            max-width: 245px;
+            padding: 0;
+            display: flex;
+            font-size: 28px;
+            line-height: 36px;
+
+        }
+        @media (max-width: 679px) {
+            max-width: 240px;
+            padding: 0;
+            display: flex;
+            font-size: 26px;
+            line-height: 36px;               
+        }
     }
 
 }
@@ -24,19 +47,67 @@
     flex-direction: row;
     list-style: none; 
     margin-top: 60px;
-    padding: 0;   
+    padding: 0;
+    @media (min-width: 680px) and (max-width: 1096px) {
+        margin: 0;
+        margin-top: 34px;
+       
+    }
+    @media (max-width: 679px) {
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+                      
+    }   
     
 }
 
 .brand-item {
     display: flex;
-    width: 145px;
+    width: 145px;   
     &:nth-child(n+2) {
         margin-left: 65px;
     }
     img {
         width: 100%;
         height: 100%;
+    }
+
+    @media (min-width: 680px) and (max-width: 1096px) {
+        max-width: 105px;
+        padding: 0;
+        width: 100%;        
+        &:nth-child(n+2) {
+            margin-left: 41px;
+        }
+    }
+    @media (max-width: 679px) {
+        max-width: 105px;
+        margin-top: 30px;
+        &:nth-child(n+2) {
+            margin-left: 0;
+        }        
+        &:nth-child(5), &:nth-child(4) {
+            margin-left: 41px;
+        }
+        &:nth-child(1) {
+            order: 3;
+        }
+        &:nth-child(2) {
+            order: 1;
+        }
+        &:nth-child(5) {
+            order: 2;
+        }
+        &:nth-child(1) {
+            order: 3;
+        }
+        &:nth-child(4) {
+            order: 4;
+        }
+        &:nth-child(3) {
+            order: 5;
+        }                
     }
 
 }

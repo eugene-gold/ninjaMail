@@ -6,9 +6,9 @@ function Start() {
         <article className='started'>
             <div className='started-wrap'>
                 <h2>Get started today!</h2>
-                <button className='btn-pick'>
+                <a className='btn-pick' href='#0'>
                     Pick a plan
-                </button>
+                </a>
             </div>
         </article> 
     );

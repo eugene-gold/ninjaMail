@@ -14,7 +14,26 @@
         font-size: 60px;
         color: white;
         margin: 0;
+        @media (min-width: 680px) and (max-width: 1096px) {
+            font-size: 38px;     
+        }
+        @media (max-width: 679px) {
+            font-size: 22px;     
+        } 
     }
+    @media (min-width: 680px) and (max-width: 1096px) {
+        max-width: 616px;
+        margin-top: 182px;
+    }  
+        
+    @media (max-width: 679px) {
+        max-width: 304px;        
+        margin: 0 auto;
+        margin-top: 42px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }  
+    
 }
 .preveiwWrapper {
     display: flex;
@@ -27,26 +46,43 @@
     width: 100%;
 }
 
-.learn-button {
+.learnbtn-link {
     width: 200px;
     height: 65px;    
     border: none;
-    cursor: pointer;
-    margin-top: 60px;
-}
-.learnbtn-link {
     font-family: 'Raleway';
     font-weight: 900;
     font-size: 21px;
-    line-height: 1.05px;
+    letter-spacing: 1.05px;
     text-transform: uppercase;
     text-decoration: none;
-    color: inherit;
-}
-.learnhow {
     background-color: white;
-    color: #4BA87D;    
-}
+    color: #4BA87D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid #4BA87D;
+    margin-top: 60px;
+    &:hover {
+        background-color: #4BA87D;   
+        color: white;    
+        transition: color 1s, background-color 1s ease-out;
+      } 
+    @media (min-width: 680px) and (max-width: 1096px) {
+        width: 132px;
+        height: 42px;
+        font-size: 13px;
+        letter-spacing: 0.65px;
+        margin-top: 42px;
+    }
+    @media (max-width: 679px) {
+        width: 65px;
+        height: 21px;
+        font-size: 6px;
+        letter-spacing: 0.3px;
+        margin-top: 20px;
+        
+          
+    }
 
-// как лучше реиспользовать кнопки все
-//почему флекс работает не так как ожидается приходится ширину задать
+}
