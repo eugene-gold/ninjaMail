@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ninjaMail/static/css/main.516955f8.css",
+    "main.css": "/ninjaMail/static/css/main.923a17cb.css",
     "main.js": "/ninjaMail/static/js/main.e42a85da.js",
     "static/js/787.4edefa48.chunk.js": "/ninjaMail/static/js/787.4edefa48.chunk.js",
     "static/media/video-preview.png": "/ninjaMail/static/media/video-preview.cbf960f0c08a9461d9c6.png",
@@ -18,6 +18,7 @@
     "static/media/photo1.png": "/ninjaMail/static/media/photo1.4f993b51782084cbf57f.png",
     "static/media/Raleway-Bold.woff2": "/ninjaMail/static/media/Raleway-Bold.4705a773b2535ca2e488.woff2",
     "static/media/Raleway-ExtraBold.woff2": "/ninjaMail/static/media/Raleway-ExtraBold.a4bb88959cb4ad860d0f.woff2",
+    "static/media/bg-stuff.png": "/ninjaMail/static/media/bg-stuff.c585832825430e9b2716.png",
     "static/media/Raleway-Medium.woff2": "/ninjaMail/static/media/Raleway-Medium.d3d776b00bad322bd72a.woff2",
     "static/media/Raleway-Black.woff2": "/ninjaMail/static/media/Raleway-Black.cd7aee2b507d96c0e2c9.woff2",
     "static/media/Quest.svg": "/ninjaMail/static/media/Quest.c7b0e1da39384a5f21e7194de1900083.svg",
@@ -27,12 +28,12 @@
     "static/media/radiotee.svg": "/ninjaMail/static/media/radiotee.3a125ad34f2b93a3f577dbd9ad47bf8f.svg",
     "static/media/lastknight.svg": "/ninjaMail/static/media/lastknight.31178496352d69515ef781a6066856e9.svg",
     "index.html": "/ninjaMail/index.html",
-    "main.516955f8.css.map": "/ninjaMail/static/css/main.516955f8.css.map",
+    "main.923a17cb.css.map": "/ninjaMail/static/css/main.923a17cb.css.map",
     "main.e42a85da.js.map": "/ninjaMail/static/js/main.e42a85da.js.map",
     "787.4edefa48.chunk.js.map": "/ninjaMail/static/js/787.4edefa48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.516955f8.css",
+    "static/css/main.923a17cb.css",
     "static/js/main.e42a85da.js"
   ]
 }
